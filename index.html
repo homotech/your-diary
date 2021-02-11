@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing</title>
+    <link rel="stylesheet" href="./Assets/overall.css" />
+    <link
+      rel="stylesheet"
+      href="./Assets/fontawesome-free-5.15.1-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./Assets/fontawesome-free-5.15.1-web/css/brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./Assets/fontawesome-free-5.15.1-web/css/fontawesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./Assets/fontawesome-free-5.15.1-web/css/regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./Assets/fontawesome-free-5.15.1-web/css/solid.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="welcome">
+        <div class="hi">
+          <h1>Hi!,</h1>
+        </div>
+        <div class="whatsyourname">
+          <p>What's your name?</p>
+        </div>
+        <div class="input">
+          <input
+            type="text"
+            placeholder="e.g Nicole"
+            name="name-field"
+            id="namefield"
+            class="namefield"
+          />
+
+          <button id="moveforward"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="schedule-wrapper">
+        <div class="modal">
+          <div class="innermodal">
+            <div class="p">
+              <p>Do you really want to clear my memory?</p>
+            </div>
+            <div class="yes"><button id="yes">Yes</button></div>
+            <div class="no"><button id="no">No</button></div>
+          </div>
+        </div>
+        <div class="header">
+          <h2>My Diary</h2>
+        </div>
+        <div class="time">
+          <p class="time" id="time"></p>
+        </div>
+        <div class="settings-wrapper">
+          <div class="settingsone">
+            <div class="input-button">
+              <div class="input">
+                <textarea
+                  id="textarea"
+                  placeholder="What happened today?"
+                ></textarea>
+              </div>
+              <div class="submit">
+                <button id="submit">submit</button>
+                <button id="ca">Clear All</button>
+              </div>
+            </div>
+            <div class="choice">
+              <div class="mood">
+                <h3>What's your mood?</h3>
+              </div>
+              <div class="choices default">
+                <p>Default</p>
+              </div>
+              <div class="choices home">
+                <i class="fas fa-home"></i>
+                <p>Unhappy</p>
+              </div>
+              <div class="choices work">
+                <i class="fas fa-briefcase"></i>
+                <p>Cool</p>
+              </div>
+              <div class="choices book">
+                <i class="fas fa-book"></i>
+                <p>Grateful</p>
+              </div>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="header"><h3>Diary Pages</h3></div>
+            <div class="settingstwo"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Assets/flexbox.js"></script>
+  </body>
+</html>
